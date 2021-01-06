@@ -16,9 +16,8 @@ print("                                                                         
 
 sgl = open("links_nitro.sst", "a")
 nogc = int(input("Quantia: "))
-rawanswer = input("Limpo [y/n]? ")
 
-if rawanswer == "y":
+if input("Limpo [y/n]? ") == "y":
 	gl = "https://discordapp.com/gifts/"
 else:
 	gl = "[#SST] - https://discordapp.com/gifts/"
